@@ -3,6 +3,8 @@
 ## Description ##
 Update your Terminal profile template
 
+![terminal](readme/terminal.png)
+
 ## How to  ##
 ```bash
 # clone this repo
