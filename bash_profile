@@ -47,10 +47,10 @@
 # 40;5;[0-256]  256 colors
 
 username="\e[38;5;197m"
-at="\e[38;5;27m"
-host="\e[38;5;26m"
-tild="\e[38;5;25m"
-dots="\e[38;5;24m"
+at="\e[38;5;112m"
+host="\e[38;5;203m"
+dots="\e[38;5;192m"
+path="\e[38;5;221m"
 dollar="\e[38;5;23m"
 cmd="\e[38;5;204m"
-export PS1="$username\u$at\[@\]$host\h$tild\]\w$dollar\$ $cmd"
+export PS1="$username\u$at\[@\]$host\h$dots\[:\]$path\]\w$dollar\$ $cmd"
